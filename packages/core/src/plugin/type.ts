@@ -255,6 +255,7 @@ export interface JsPlugin {
   };
 }
 
+export type { RustPlugin } from './rust/index.js';
 export { rustPluginResolver } from './rust/rustPluginResolver.js';
 export type {
   PluginResolveHookParam,
